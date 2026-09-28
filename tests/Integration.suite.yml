@@ -1,0 +1,6 @@
+# Eigene Integration-Suite (kein Framework).
+# Wir bauen unsere Objekte selbst zusammen und mocken nur die Aussengrenze.
+actor: IntegrationTester
+modules:
+    enabled:
+        - Asserts
